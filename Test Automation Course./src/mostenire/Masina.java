@@ -4,7 +4,8 @@ import mostenire.Vehicol;
 
 public class Masina extends Vehicol {
 
-     private String marca;
+    private String marca;
+
     public Masina(String culoare, Integer nrRoti, String marca) {
         super(culoare, nrRoti);
         this.marca = marca;

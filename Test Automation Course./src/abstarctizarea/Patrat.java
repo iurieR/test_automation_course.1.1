@@ -1,6 +1,6 @@
 package abstarctizarea;
 
-public class Patrat extends FormaGeometrica{
+public class Patrat extends FormaGeometrica {
     @Override
     public void calculArie() {
 

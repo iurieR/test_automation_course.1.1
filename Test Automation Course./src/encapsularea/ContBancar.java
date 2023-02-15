@@ -6,7 +6,7 @@ public class ContBancar {
     private Long numarCont;
     private Double sold;
 
-    public ContBancar(Long numarCont,Double sold) {
+    public ContBancar(Long numarCont, Double sold) {
         this.numarCont = numarCont;
         this.sold = sold;
     }
