@@ -2,7 +2,7 @@ package abstarctizarea;
 
 public abstract class Patrat extends FormaGeometrica {
 
-    private int latura ;
+    private int latura;
 
     public int getLatura() {
         return latura;
@@ -18,6 +18,6 @@ public abstract class Patrat extends FormaGeometrica {
 
     @Override
     double calculArie() {
-        return latura*latura;
+        return latura * latura;
     }
 }

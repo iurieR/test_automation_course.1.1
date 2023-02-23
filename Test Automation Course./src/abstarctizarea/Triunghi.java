@@ -27,6 +27,6 @@ public class Triunghi extends FormaGeometrica {
 
     @Override
     double calculArie() {
-        return (inaltime*baza)/2;
+        return (inaltime * baza) / 2;
     }
 }
