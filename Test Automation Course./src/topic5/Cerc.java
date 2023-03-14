@@ -13,11 +13,11 @@ public class Cerc extends FiguraGeometrica {
 
     @Override
     double returneazaPerimetru() {
-        return (2*3.14)*raza;
+        return (2 * 3.14) * raza;
     }
 
     @Override
     double returneazaAria() {
-        return raza*raza*3.14;
+        return raza * raza * 3.14;
     }
 }

@@ -27,7 +27,7 @@ public class Romb extends FiguraGeometrica {
 
     @Override
     double returneazaAria() {
-        return (diagonala1*diagonala2)/2;
+        return (diagonala1 * diagonala2) / 2;
     }
 
     @Override

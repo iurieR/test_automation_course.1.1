@@ -13,11 +13,11 @@ public class Patrat extends FiguraGeometrica {
 
     @Override
     double returneazaAria() {
-        return lungimeLatura*lungimeLatura;
+        return lungimeLatura * lungimeLatura;
     }
 
     @Override
     double returneazaPerimetru() {
-        return 4*lungimeLatura;
+        return 4 * lungimeLatura;
     }
 }
