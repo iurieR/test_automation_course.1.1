@@ -13,6 +13,9 @@ public class ServiciuStoc {
         telecentru.adaugareCarteInStoc(Nr2);
         telecentru.adaugareCarteInStoc(Nr3);
         System.out.println("la magazinul de la telecentru sunt :" + telecentru.numarulDeCartiInStoc());
+        telecentru.stergeCarteaDinStoc(Nr2);
+        System.out.println("stocul est gol?" + telecentru.esteStoculGol());
+        System.out.println("este care nr4 in stoc " + telecentru.existaCarteInStoc(Nr3));
 
     }
 }

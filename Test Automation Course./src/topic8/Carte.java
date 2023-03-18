@@ -29,7 +29,6 @@ public class Carte {
         return pagini;
     }
 
-}
 
     @Override
     public String toString() {
