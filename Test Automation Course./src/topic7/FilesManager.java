@@ -6,7 +6,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class FilesManager {
-    static void scriereaInformatieTextInFisier(String caleaCatreFisier, String date) throws IOException {
+    static void scriereaInformatieTextInFisier(String caleaCatreFisier, String date) {
         try {
             FileWriter writer = new FileWriter(caleaCatreFisier);
             writer.write(date);
@@ -18,7 +18,7 @@ public class FilesManager {
 
     }
 
-    static void alipireaInformatieiLaFisier(String calaeaCatreFisier, String date) throws IOException {
+    static void alipireaInformatieiLaFisier(String calaeaCatreFisier, String date) {
         try {
             FileWriter writer = new FileWriter(calaeaCatreFisier);
             writer.append(date);
@@ -30,7 +30,7 @@ public class FilesManager {
 
     }
 
-    static String citireaDateDinFisier(String caleaCatreFisier) throws IOException {
+    static String citireaDateDinFisier(String caleaCatreFisier)  {
         char c[] = new char[100];
         try {
             FileReader reader = new FileReader(caleaCatreFisier);
