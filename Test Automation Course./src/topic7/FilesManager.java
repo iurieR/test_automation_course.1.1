@@ -20,7 +20,7 @@ public class FilesManager {
 
     static void alipireaInformatieiLaFisier(String calaeaCatreFisier, String date) {
         try {
-            FileWriter writer = new FileWriter(calaeaCatreFisier);
+            FileWriter writer = new FileWriter(calaeaCatreFisier, true);
             writer.append(date);
             writer.close();
 
@@ -30,7 +30,7 @@ public class FilesManager {
 
     }
 
-    static String citireaDateDinFisier(String caleaCatreFisier)  {
+    static String citireaDateDinFisier(String caleaCatreFisier) {
         char c[] = new char[100];
         try {
             FileReader reader = new FileReader(caleaCatreFisier);
@@ -38,7 +38,7 @@ public class FilesManager {
             System.out.println("datele au fost scrise");
             System.out.println(c);
             reader.close();
-        } catch (FileNotFoundException e) {
+        } catch (IOException e) {
             System.out.println("calea fisierului este gresita " + e);
         }
         return caleaCatreFisier;
