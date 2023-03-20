@@ -29,9 +29,13 @@ public class Carte {
         return pagini;
     }
 
-
     @Override
     public String toString() {
-        return super.toString();
+        return "Carte{" +
+                "autor='" + autor + '\'' +
+                ", titlu='" + titlu + '\'' +
+                ", numarSerie=" + numarSerie +
+                ", pagini=" + pagini +
+                '}';
     }
 }
